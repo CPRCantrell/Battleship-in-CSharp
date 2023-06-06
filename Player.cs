@@ -1,7 +1,7 @@
-class Player
+abstract class Player
 {
-    private string name;
-    private bool winner;
+    protected string name;
+    protected bool winner;
 
     public bool Winner(){
         return this.winner;
@@ -14,6 +14,12 @@ class Player
     public void SetName(string newName){
         this.name = newName;
     }
+
+    public void Initialize()
+    {
+        this.InitializeName();
+    }
+    protected abstract void InitializeName();
 
     public void PlayTurn()
     {

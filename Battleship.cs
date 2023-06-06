@@ -8,6 +8,8 @@ class Battleship
         do
         {
             this.HumanOrAiPlayers();
+            this.playerOne.Initialize();
+            this.playerTwo.Initialize();
             this.GameLoop();
         }
         while(this.PlayAgain());
@@ -21,13 +23,24 @@ class Battleship
         Console.Write("\n\nPress ENTER to start...");
         while(Console.ReadKey(true).Key != ConsoleKey.Enter)
             continue;
+        Console.Clear();
     }
 
-    private string HumanOrAiPlayers()
+    private void HumanOrAiPlayers()
     {
-        Console.WriteLine("Select player set-up: \n1> Human v Human \n2> Human v Ai \n3>Ai v Ai \n");
+        Console.WriteLine("Select player set-up: \n1> Human v Human \n2> Human v Ai \n3> Ai v Ai \n");
         string[] options = {"1", "2", "3"};
-        return this.CollectValidatedInput(options, "Which do you choose: ");
+        string response = this.CollectValidatedInput(options, "Which do you choose: ");
+
+        if(response != "3")
+            this.playerOne = new Human();
+        else
+            this.playerOne = new Ai();
+
+        if(response == "1")
+            this.playerTwo = new Human();
+        else
+            this.playerTwo = new Ai();
     }
 
     private void GameLoop()
@@ -69,7 +82,7 @@ class Battleship
         {
             try
             {
-                Console.WriteLine(prompt);
+                Console.Write(prompt);
                 string response = Console.ReadLine().Split(" ").Where(character => character != "").ToArray()[0].ToLower();
 
                 foreach(string answer in acceptableAnswers)
