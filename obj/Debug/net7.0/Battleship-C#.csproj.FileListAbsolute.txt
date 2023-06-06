@@ -1,0 +1,15 @@
+C:\Users\Chris\Desktop\Personal Projects\Battleship-C#\bin\Debug\net7.0\Battleship-C#.exe
+C:\Users\Chris\Desktop\Personal Projects\Battleship-C#\bin\Debug\net7.0\Battleship-C#.deps.json
+C:\Users\Chris\Desktop\Personal Projects\Battleship-C#\bin\Debug\net7.0\Battleship-C#.runtimeconfig.json
+C:\Users\Chris\Desktop\Personal Projects\Battleship-C#\bin\Debug\net7.0\Battleship-C#.dll
+C:\Users\Chris\Desktop\Personal Projects\Battleship-C#\bin\Debug\net7.0\Battleship-C#.pdb
+C:\Users\Chris\Desktop\Personal Projects\Battleship-C#\obj\Debug\net7.0\Battleship-C#.csproj.AssemblyReference.cache
+C:\Users\Chris\Desktop\Personal Projects\Battleship-C#\obj\Debug\net7.0\Battleship-C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chris\Desktop\Personal Projects\Battleship-C#\obj\Debug\net7.0\Battleship-C#.AssemblyInfoInputs.cache
+C:\Users\Chris\Desktop\Personal Projects\Battleship-C#\obj\Debug\net7.0\Battleship-C#.AssemblyInfo.cs
+C:\Users\Chris\Desktop\Personal Projects\Battleship-C#\obj\Debug\net7.0\Battleship-C#.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Desktop\Personal Projects\Battleship-C#\obj\Debug\net7.0\Battleship-C#.dll
+C:\Users\Chris\Desktop\Personal Projects\Battleship-C#\obj\Debug\net7.0\refint\Battleship-C#.dll
+C:\Users\Chris\Desktop\Personal Projects\Battleship-C#\obj\Debug\net7.0\Battleship-C#.pdb
+C:\Users\Chris\Desktop\Personal Projects\Battleship-C#\obj\Debug\net7.0\Battleship-C#.genruntimeconfig.cache
+C:\Users\Chris\Desktop\Personal Projects\Battleship-C#\obj\Debug\net7.0\ref\Battleship-C#.dll
