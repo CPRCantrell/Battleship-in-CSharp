@@ -1,7 +1,7 @@
-class Options
+class OptionMenu
 {
-    private string[] QuitOptions = {"quit", "leave", "q"};
     private string[] MenuOptions = {"menu", "options", "option", "m", "o"};
+    private string[] QuitOptions = {"quit", "leave", "q"};
     private string[] RestartOptions = {"restart", "r"};
 
     public string filterInput()
