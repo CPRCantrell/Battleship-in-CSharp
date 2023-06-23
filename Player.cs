@@ -1,6 +1,7 @@
 abstract class Player
 {
     protected string name;
+    protected Board board = new Board();
     protected bool winner = false;
 
     public bool Winner(){

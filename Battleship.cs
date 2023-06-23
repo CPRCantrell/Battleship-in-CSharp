@@ -52,7 +52,7 @@ class Battleship
             else
                 this.playerOne.PlayTurn();
             ++round;
-        } while(this.playerOne.Winner() || this.playerTwo.Winner());
+        } while(!this.playerOne.Winner() || !this.playerTwo.Winner());
     }
 
     private bool PlayAgain()
