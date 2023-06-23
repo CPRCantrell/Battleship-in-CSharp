@@ -1,7 +1,7 @@
 abstract class Player
 {
     protected string name;
-    protected bool winner;
+    protected bool winner = false;
 
     public bool Winner(){
         return this.winner;
